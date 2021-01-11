@@ -1,0 +1,76 @@
+/* ==UserStyle==
+@name           Modern CK
+@namespace      https://github.com/MarkDWashington/Modern-CK
+@version        1.0.0
+@description    A stylesheet that makes CK's CS3331 website actually readable and more modern.
+@author         Mark Washington
+==/UserStyle== */
+
+@-moz-document url-prefix("http://www.csl.mtu.edu/cs3331.ck/www/"), url-prefix("http://www.csl.mtu.edu/cs4411.ck/www/"), url-prefix("https://pages.mtu.edu/~shene/"){
+    h1, h2, h3 {
+        color: #000000 !important;
+    }
+    
+    body {
+        background: #FFFFFF;
+        color: #000000;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    a {
+        color: #0000EE;
+    }
+
+    a > font {
+        color: #0000EE;
+    }
+    
+    img[src="GreenDot.gif"], img[src="ChromeBall.gif"], img[src="e-Mail.gif"],
+    img[src="mtu-seal.gif"], img[src="GrLine.gif"], img[src="../../GrLine.gif"],
+    img[src="../../GreenDot.gif"], img[src="../../ChromeBall.gif"],
+    img[src="../GrLine.gif"], img[src="../GreenDot.gif"], img[src="../ChromeBall.gif"], 
+    img[src="working.gif"], img[src="Construct.gif"], img[src="NSF-logo.gif"] {
+        height: 0px;
+        width: 0px;
+    }
+
+    pre, code{
+    font-family: 'Courier New', Courier, monospace;
+    background: #EEEEEE;
+    padding: .5em;
+    border-radius: 2px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 4px;   
+    }
+
+    td[bgcolor="#00009F"] {
+        background-color: #FFFFFF;
+    }
+
+    center > font[face="Helvetica"] {
+        display: none;
+    }
+
+    font[color="#FF0000"] {
+        color: #EE0000 !important;   
+    }
+
+    *[color="#FFFF00"], *[color="#FFFFAA"], *[color="#FFFFFFAA"] {
+        color: #000000 !important;   
+    }
+    
+    *[bgcolor="#FF0000"] {
+        background-color: #FFFFFF !important;
+    }
+    
+    *[bgcolor="#0000AA"] {
+        background-color: #FFFFFF
+    }
+  }
